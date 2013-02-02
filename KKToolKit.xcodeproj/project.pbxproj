@@ -10,6 +10,11 @@
 		6A6E1C8416BD7CD200248455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6E1C8316BD7CD200248455 /* Foundation.framework */; };
 		6A6E1C8916BD7CD200248455 /* KKToolKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6A6E1C8816BD7CD200248455 /* KKToolKit.h */; };
 		6A6E1C8B16BD7CD200248455 /* KKToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E1C8A16BD7CD200248455 /* KKToolKit.m */; };
+		6A6E1CA116BD7DAD00248455 /* NSDate+KKToolKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E1C9616BD7DAD00248455 /* NSDate+KKToolKitAdditions.m */; };
+		6A6E1CA216BD7DAD00248455 /* KKSHA1Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E1C9916BD7DAD00248455 /* KKSHA1Generator.m */; };
+		6A6E1CA316BD7DAD00248455 /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E1C9C16BD7DAD00248455 /* UIColor+CustomColors.m */; };
+		6A6E1CA416BD7DAD00248455 /* UIDevice+Resolutions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E1C9F16BD7DAD00248455 /* UIDevice+Resolutions.m */; };
+		6A6E1CBA16BD801800248455 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E1CB616BD801800248455 /* NSMutableArray+Shuffle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +36,16 @@
 		6A6E1C8716BD7CD200248455 /* KKToolKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKToolKit-Prefix.pch"; sourceTree = "<group>"; };
 		6A6E1C8816BD7CD200248455 /* KKToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKToolKit.h; sourceTree = "<group>"; };
 		6A6E1C8A16BD7CD200248455 /* KKToolKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKToolKit.m; sourceTree = "<group>"; };
+		6A6E1C9516BD7DAD00248455 /* NSDate+KKToolKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+KKToolKitAdditions.h"; sourceTree = "<group>"; };
+		6A6E1C9616BD7DAD00248455 /* NSDate+KKToolKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+KKToolKitAdditions.m"; sourceTree = "<group>"; };
+		6A6E1C9816BD7DAD00248455 /* KKSHA1Generator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKSHA1Generator.h; sourceTree = "<group>"; };
+		6A6E1C9916BD7DAD00248455 /* KKSHA1Generator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKSHA1Generator.m; sourceTree = "<group>"; };
+		6A6E1C9B16BD7DAD00248455 /* UIColor+CustomColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CustomColors.h"; sourceTree = "<group>"; };
+		6A6E1C9C16BD7DAD00248455 /* UIColor+CustomColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CustomColors.m"; sourceTree = "<group>"; };
+		6A6E1C9E16BD7DAD00248455 /* UIDevice+Resolutions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Resolutions.h"; sourceTree = "<group>"; };
+		6A6E1C9F16BD7DAD00248455 /* UIDevice+Resolutions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Resolutions.m"; sourceTree = "<group>"; };
+		6A6E1CB516BD801800248455 /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
+		6A6E1CB616BD801800248455 /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +88,7 @@
 		6A6E1C8516BD7CD200248455 /* KKToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				6A6E1C9116BD7DAD00248455 /* Classes */,
 				6A6E1C8816BD7CD200248455 /* KKToolKit.h */,
 				6A6E1C8A16BD7CD200248455 /* KKToolKit.m */,
 				6A6E1C8616BD7CD200248455 /* Supporting Files */,
@@ -86,6 +102,64 @@
 				6A6E1C8716BD7CD200248455 /* KKToolKit-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6A6E1C9116BD7DAD00248455 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E1CB416BD801800248455 /* NSMutableArray */,
+				6A6E1C9216BD7DAD00248455 /* NSDate */,
+				6A6E1C9716BD7DAD00248455 /* SHA1 */,
+				6A6E1C9A16BD7DAD00248455 /* UIColor */,
+				6A6E1C9D16BD7DAD00248455 /* UIDevice+Resolutions */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		6A6E1C9216BD7DAD00248455 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E1C9516BD7DAD00248455 /* NSDate+KKToolKitAdditions.h */,
+				6A6E1C9616BD7DAD00248455 /* NSDate+KKToolKitAdditions.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		6A6E1C9716BD7DAD00248455 /* SHA1 */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E1C9816BD7DAD00248455 /* KKSHA1Generator.h */,
+				6A6E1C9916BD7DAD00248455 /* KKSHA1Generator.m */,
+			);
+			path = SHA1;
+			sourceTree = "<group>";
+		};
+		6A6E1C9A16BD7DAD00248455 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E1C9B16BD7DAD00248455 /* UIColor+CustomColors.h */,
+				6A6E1C9C16BD7DAD00248455 /* UIColor+CustomColors.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		6A6E1C9D16BD7DAD00248455 /* UIDevice+Resolutions */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E1C9E16BD7DAD00248455 /* UIDevice+Resolutions.h */,
+				6A6E1C9F16BD7DAD00248455 /* UIDevice+Resolutions.m */,
+			);
+			path = "UIDevice+Resolutions";
+			sourceTree = "<group>";
+		};
+		6A6E1CB416BD801800248455 /* NSMutableArray */ = {
+			isa = PBXGroup;
+			children = (
+				6A6E1CB516BD801800248455 /* NSMutableArray+Shuffle.h */,
+				6A6E1CB616BD801800248455 /* NSMutableArray+Shuffle.m */,
+			);
+			name = NSMutableArray;
+			path = NSArray;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +214,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A6E1C8B16BD7CD200248455 /* KKToolKit.m in Sources */,
+				6A6E1CA116BD7DAD00248455 /* NSDate+KKToolKitAdditions.m in Sources */,
+				6A6E1CA216BD7DAD00248455 /* KKSHA1Generator.m in Sources */,
+				6A6E1CA316BD7DAD00248455 /* UIColor+CustomColors.m in Sources */,
+				6A6E1CA416BD7DAD00248455 /* UIDevice+Resolutions.m in Sources */,
+				6A6E1CBA16BD801800248455 /* NSMutableArray+Shuffle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
