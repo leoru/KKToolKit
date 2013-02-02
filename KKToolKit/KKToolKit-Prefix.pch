@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'KKToolKit' target in the 'KKToolKit' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
