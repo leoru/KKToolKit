@@ -11,3 +11,4 @@ KKToolKit make life easier. It's a collection of different classes and categorie
 * SHA1Generator. Generates random SHA1.
 * UIDevice+Resolution. Created by Daniele Margutti, this category allows to indicate device your application running on.
 * NSMutableArray+Shuffle. Random shuffle an array.
+* UIView+KKToolKitAdditions. Easy access to uiview frame with setters and getters
