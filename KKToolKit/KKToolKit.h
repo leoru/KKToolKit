@@ -11,5 +11,6 @@
 #import "UIColor+CustomColors.h"
 #import "UIView+KKToolKitAdditions.h"
 #import "UIDevice+Resolutions.h"
+#import "UIButton+AFNetworking.h"
 #import "KKSHA1Generator.h"
 
