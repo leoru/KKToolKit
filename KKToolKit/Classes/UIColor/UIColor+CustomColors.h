@@ -10,6 +10,8 @@
 
 @interface UIColor (KKToolKit)
 
-+(UIColor *)randomColor;
-+(UIColor *)colorFromHexString:(NSString *)hexString;
++ (UIColor *)randomColor;
+
++ (UIColor *)colorFromHexString:(NSString *)hexString;
+
 @end

@@ -14,6 +14,12 @@
 		6A6E1CA316BD7DAD00248455 /* UIColor+CustomColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E1C9C16BD7DAD00248455 /* UIColor+CustomColors.m */; };
 		6A6E1CA416BD7DAD00248455 /* UIDevice+Resolutions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E1C9F16BD7DAD00248455 /* UIDevice+Resolutions.m */; };
 		6A6E1CBA16BD801800248455 /* NSMutableArray+Shuffle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A6E1CB616BD801800248455 /* NSMutableArray+Shuffle.m */; };
+		6A7573A1190FB154004AB3BD /* KKMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7573A0190FB154004AB3BD /* KKMath.m */; };
+		6A7573A5190FB3BE004AB3BD /* NSString+KKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7573A4190FB3BE004AB3BD /* NSString+KKAdditions.m */; };
+		6A8B2E13190FD6AA00568198 /* UIImage+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B2E12190FD6AA00568198 /* UIImage+Additions.m */; };
+		6A8B2E19190FDDA400568198 /* KKReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B2E16190FDDA400568198 /* KKReachabilityManager.m */; };
+		6A8B2E1A190FDDA400568198 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A8B2E18190FDDA400568198 /* Reachability.m */; };
+		6AD6BB5A180537D900735325 /* NSString+Hashes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6BB56180537D900735325 /* NSString+Hashes.m */; };
 		6AF7C13B16F7896B0052C5B9 /* UIView+KKToolKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7C13A16F7896B0052C5B9 /* UIView+KKToolKitAdditions.m */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +51,18 @@
 		6A6E1C9F16BD7DAD00248455 /* UIDevice+Resolutions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Resolutions.m"; sourceTree = "<group>"; };
 		6A6E1CB516BD801800248455 /* NSMutableArray+Shuffle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+Shuffle.h"; sourceTree = "<group>"; };
 		6A6E1CB616BD801800248455 /* NSMutableArray+Shuffle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+Shuffle.m"; sourceTree = "<group>"; };
+		6A75739F190FB154004AB3BD /* KKMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KKMath.h; path = Math/KKMath.h; sourceTree = "<group>"; };
+		6A7573A0190FB154004AB3BD /* KKMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KKMath.m; path = Math/KKMath.m; sourceTree = "<group>"; };
+		6A7573A3190FB3BE004AB3BD /* NSString+KKAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+KKAdditions.h"; path = "NSString+Additions/NSString+KKAdditions.h"; sourceTree = "<group>"; };
+		6A7573A4190FB3BE004AB3BD /* NSString+KKAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+KKAdditions.m"; path = "NSString+Additions/NSString+KKAdditions.m"; sourceTree = "<group>"; };
+		6A8B2E11190FD6AA00568198 /* UIImage+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Additions.h"; path = "UIImage+Additions/UIImage+Additions.h"; sourceTree = "<group>"; };
+		6A8B2E12190FD6AA00568198 /* UIImage+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Additions.m"; path = "UIImage+Additions/UIImage+Additions.m"; sourceTree = "<group>"; };
+		6A8B2E15190FDDA400568198 /* KKReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKReachabilityManager.h; sourceTree = "<group>"; };
+		6A8B2E16190FDDA400568198 /* KKReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKReachabilityManager.m; sourceTree = "<group>"; };
+		6A8B2E17190FDDA400568198 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		6A8B2E18190FDDA400568198 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		6AD6BB55180537D900735325 /* NSString+Hashes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hashes.h"; sourceTree = "<group>"; };
+		6AD6BB56180537D900735325 /* NSString+Hashes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hashes.m"; sourceTree = "<group>"; };
 		6AF7C13916F7896B0052C5B9 /* UIView+KKToolKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KKToolKitAdditions.h"; sourceTree = "<group>"; };
 		6AF7C13A16F7896B0052C5B9 /* UIView+KKToolKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KKToolKitAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -89,8 +107,8 @@
 		6A6E1C8516BD7CD200248455 /* KKToolKit */ = {
 			isa = PBXGroup;
 			children = (
-				6A6E1C9116BD7DAD00248455 /* Classes */,
 				6A6E1C8816BD7CD200248455 /* KKToolKit.h */,
+				6A6E1C9116BD7DAD00248455 /* Classes */,
 				6A6E1C8616BD7CD200248455 /* Supporting Files */,
 			);
 			path = KKToolKit;
@@ -107,6 +125,11 @@
 		6A6E1C9116BD7DAD00248455 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				6A8B2E14190FDDA400568198 /* ReachibilityManager */,
+				6A8B2E10190FD64500568198 /* UIImage+Additions */,
+				6A7573A2190FB3A5004AB3BD /* NSString+Additions */,
+				6A75739E190FB13D004AB3BD /* Math */,
+				6AD6BB54180537D900735325 /* NSString+Hashes */,
 				6AF7C13816F7896B0052C5B9 /* UIView */,
 				6A6E1CB416BD801800248455 /* NSMutableArray */,
 				6A6E1C9216BD7DAD00248455 /* NSDate */,
@@ -161,6 +184,53 @@
 			);
 			name = NSMutableArray;
 			path = NSArray;
+			sourceTree = "<group>";
+		};
+		6A75739E190FB13D004AB3BD /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				6A75739F190FB154004AB3BD /* KKMath.h */,
+				6A7573A0190FB154004AB3BD /* KKMath.m */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		6A7573A2190FB3A5004AB3BD /* NSString+Additions */ = {
+			isa = PBXGroup;
+			children = (
+				6A7573A3190FB3BE004AB3BD /* NSString+KKAdditions.h */,
+				6A7573A4190FB3BE004AB3BD /* NSString+KKAdditions.m */,
+			);
+			name = "NSString+Additions";
+			sourceTree = "<group>";
+		};
+		6A8B2E10190FD64500568198 /* UIImage+Additions */ = {
+			isa = PBXGroup;
+			children = (
+				6A8B2E11190FD6AA00568198 /* UIImage+Additions.h */,
+				6A8B2E12190FD6AA00568198 /* UIImage+Additions.m */,
+			);
+			name = "UIImage+Additions";
+			sourceTree = "<group>";
+		};
+		6A8B2E14190FDDA400568198 /* ReachibilityManager */ = {
+			isa = PBXGroup;
+			children = (
+				6A8B2E15190FDDA400568198 /* KKReachabilityManager.h */,
+				6A8B2E16190FDDA400568198 /* KKReachabilityManager.m */,
+				6A8B2E17190FDDA400568198 /* Reachability.h */,
+				6A8B2E18190FDDA400568198 /* Reachability.m */,
+			);
+			path = ReachibilityManager;
+			sourceTree = "<group>";
+		};
+		6AD6BB54180537D900735325 /* NSString+Hashes */ = {
+			isa = PBXGroup;
+			children = (
+				6AD6BB55180537D900735325 /* NSString+Hashes.h */,
+				6AD6BB56180537D900735325 /* NSString+Hashes.m */,
+			);
+			path = "NSString+Hashes";
 			sourceTree = "<group>";
 		};
 		6AF7C13816F7896B0052C5B9 /* UIView */ = {
@@ -223,11 +293,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A8B2E19190FDDA400568198 /* KKReachabilityManager.m in Sources */,
 				6A6E1CA116BD7DAD00248455 /* NSDate+KKToolKitAdditions.m in Sources */,
+				6AD6BB5A180537D900735325 /* NSString+Hashes.m in Sources */,
 				6A6E1CA216BD7DAD00248455 /* KKSHA1Generator.m in Sources */,
+				6A8B2E13190FD6AA00568198 /* UIImage+Additions.m in Sources */,
 				6A6E1CA316BD7DAD00248455 /* UIColor+CustomColors.m in Sources */,
+				6A7573A1190FB154004AB3BD /* KKMath.m in Sources */,
 				6A6E1CA416BD7DAD00248455 /* UIDevice+Resolutions.m in Sources */,
+				6A7573A5190FB3BE004AB3BD /* NSString+KKAdditions.m in Sources */,
 				6A6E1CBA16BD801800248455 /* NSMutableArray+Shuffle.m in Sources */,
+				6A8B2E1A190FDDA400568198 /* Reachability.m in Sources */,
 				6AF7C13B16F7896B0052C5B9 /* UIView+KKToolKitAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

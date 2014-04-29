@@ -68,3 +68,25 @@
 }
 
 @end
+
+@implementation UIView (ImageRepresentation)
+
+- (UIImage*)imageRepresentation {
+    
+    UIGraphicsBeginImageContextWithOptions(self.bounds.size, YES, self.window.screen.scale);
+    
+    /* iOS 7 */
+    if ([self respondsToSelector:@selector(drawViewHierarchyInRect:afterScreenUpdates:)])
+        [self drawViewHierarchyInRect:self.bounds afterScreenUpdates:NO];
+    else /* iOS 6 */
+        [self.layer renderInContext:UIGraphicsGetCurrentContext()];
+    
+    UIImage* ret = UIGraphicsGetImageFromCurrentImageContext();
+    
+    UIGraphicsEndImageContext();
+    
+    return ret;
+    
+}
+
+@end

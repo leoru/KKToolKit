@@ -10,26 +10,48 @@
 
 @interface NSDate (KKToolKitAdditions)
 
--(NSDate *)nextDay;
--(NSDate *)previousDay;
+- (NSDate *)nextDay;
 
--(NSDate *)previousMonth;
--(NSDate *)nextMonth;
+- (NSDate *)previousDay;
 
--(NSDate *)startOfMonth;
--(NSDate *) endOfMonth;
+- (NSDate *)previousMonth;
 
--(NSDate *) dateByAddingMonths: (NSInteger) monthsToAdd;
--(NSDate *)dateByAddingDays:(NSInteger)daysToAdd;
--(NSDate *)dateByAddingHours:(int)hours;
+- (NSDate *)nextMonth;
 
--(NSDate *)startOfDay;
+- (NSDate *)startOfMonth;
 
--(NSDate *)startOfWeek;
--(NSDate *)endOfWeek;
+- (NSDate *)endOfMonth;
 
--(int)currentDay;
--(int)currentMonth;
+- (NSDate *)dateByAddingMonths:(NSInteger)monthsToAdd;
+
+- (NSDate *)dateByAddingDays:(NSInteger)daysToAdd;
+
+- (NSDate *)startOfDay;
+
+- (NSDate *)endOfDay;
+
+- (NSDate *)startOfWeek;
+
+- (NSDate *)endOfWeek;
+
+@end
+
+@interface NSDate (TDToolkit)
+
+- (NSDate *)dateByAddingHours:(int)hours;
+
+- (NSDate *)dateByAddingMinutes:(int)minutes;
+
+- (NSString *)time;
+
+- (int)currentDay;
+
+- (int)currentMonth;
+
++ (int)currentYear;
+
+- (NSDate *)toSpecificTime:(NSDate *)time;
+
 
 @end
 

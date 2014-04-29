@@ -10,6 +10,6 @@
 
 @interface KKSHA1Generator : NSObject
 
-+(NSString *)generate;
++ (NSString *)generate;
 
 @end

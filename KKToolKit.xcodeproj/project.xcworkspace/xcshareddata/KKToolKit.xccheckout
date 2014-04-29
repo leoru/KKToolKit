@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E3B9F542-E72F-4DE9-80D7-E93780537788</string>
+	<key>IDESourceControlProjectName</key>
+	<string>KKToolKit</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6EB8E33A-5632-43D5-BEA8-78EF23932F53</key>
+		<string>https://github.com/leoru/KKToolKit.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>KKToolKit.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6EB8E33A-5632-43D5-BEA8-78EF23932F53</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/leoru/KKToolKit.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6EB8E33A-5632-43D5-BEA8-78EF23932F53</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6EB8E33A-5632-43D5-BEA8-78EF23932F53</string>
+			<key>IDESourceControlWCCName</key>
+			<string>KKToolKit</string>
+		</dict>
+	</array>
+</dict>
+</plist>
